@@ -13,5 +13,8 @@ _공부한 것들_
   * JSON
   * jQuery
 * SQL
+* SPSS
+* LINGO
+* NeuroShell
   
 자세한 정보는 각각의 폴더를 참조해주세요.
