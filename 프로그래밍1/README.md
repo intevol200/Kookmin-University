@@ -2,6 +2,7 @@
 * 학기: 2019-1
 * 사용 교재: 자체 교안
 * 언어: HTML / CSS / JavaScript
+* Tools: Visual Studio Code
 
 ###### 과목 소개
 ```
