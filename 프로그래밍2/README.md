@@ -7,5 +7,5 @@
 1. JavaScript
 2. Python
 3. Anaconda
-4. Git
+4. Git 사용법
 ```
