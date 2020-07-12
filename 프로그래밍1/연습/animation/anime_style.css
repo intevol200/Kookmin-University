@@ -1,0 +1,20 @@
+.wrap {
+    position: relative;
+    transform:translate3d(20px,0,0);
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+}
+/*transfrom 속성을 사용하면 하드웨어 가속을 통한 빠른 렌더링이 가능함*/
+.box:nth-child(2) {
+    transform:translate3d(100px,0,0);
+}
+.box:nth-child(3) {
+    transform:translateX(200px);
+}

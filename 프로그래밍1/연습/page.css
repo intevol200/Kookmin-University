@@ -1,0 +1,67 @@
+html {
+    width: 500px;
+    height: 500px;
+}
+header > h1 {
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+}
+header > p {
+    text-align: center;
+    text-decoration-line: underline;
+}
+nav {
+    background-color: slategray;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav > ul > li {
+    color: white;
+    width: 100px;
+    height: 20px;
+    flex-grow: 1;
+    margin: 0.2rem;
+    float: left;
+    position: static;
+    list-style: none;
+}
+nav > ul > li > a {
+    color: white;
+}
+#image_section {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#image_section > img {
+    color: white;
+    margin: 2rem;
+}
+.content > ul > li {
+    list-style: none;
+}
+#chrome {
+    width: 100px;
+    background-image: linear-gradient(90deg, red, yellow, darkgreen);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#firefox {
+    width: 100px;
+    color: rgb(88, 8, 99);
+}
+#safari {
+    width: 100px;
+    color: blue;
+}
+.content > ul > p {
+    font-size: 60%;
+}
+footer {
+    margin-top: 3rem;
+    text-align: center;
+}

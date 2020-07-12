@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css style</title>
+        <style>
+            #myspan {
+                color:crimson;
+            }
+            span.hisclass {
+                font-weight: bold;
+                color:darkblue;
+            }
+            /* nth-child(n) = 타입과 상관없이 n번째에 해당 */
+            #childrel > p:nth-child(3) {
+                color:deeppink;
+            }
+            /* nth-of-type(n) = 해당 타입 중 n번째에 해당 */
+            #childrel > p:nth-of-type(3) {
+                color:dodgerblue;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="myspan">hello world</span>
+        <div>
+            dummy text
+        </div>
+        <div>
+            <span id="myspan">dlrow olleh</span><br>
+            <span class="hisclass">QAWSEDRF</span>
+        </div>
+        <div id="childrel">
+            <h2>title name</h2>
+                <p>first</p>
+                <p>second</p>
+                <p>third</p>
+                <p>fourth</p>
+        </div>
+    </body>
+</html>

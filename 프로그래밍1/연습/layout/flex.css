@@ -1,0 +1,19 @@
+.wrap {
+    background-color: slategray;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.wrap > div {
+    background-color: lightseagreen;
+    color: white;
+    margin: 0.2rem;
+    height: 200px;
+    flex-grow: 1;
+}
+
+.wrap > div:nth-child(2) {
+    flex-grow: 5;
+}

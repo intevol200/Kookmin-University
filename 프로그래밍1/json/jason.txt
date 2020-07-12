@@ -1,0 +1,4 @@
+{
+    "name" : "choi",
+    "favorites" : ["python", "java"]
+}

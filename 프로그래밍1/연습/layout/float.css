@@ -1,0 +1,24 @@
+.wrap {
+    background-color: slategray;
+    padding: 0.5rem;
+    width: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrap > div {
+    background-color: #333333;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 0.5rem;
+    float: left;
+}
+
+footer {
+    width: 480px;
+    height: 100px;
+    background-color: rgb(132, 156, 82);
+    margin-top: 0.5rem;
+    clear: left;
+}

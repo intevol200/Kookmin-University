@@ -1,0 +1,22 @@
+.outside {
+    position: relative;
+    background-color: lightblue;
+    width: 100px;
+    font-size: 0.8em;
+    color: rgb(56, 122, 119);
+    left: 200px;
+    top: 200px;
+    transform: scale(1);
+    transition: all 1s ease-out;
+}
+.updown {
+    position: relative;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    font-size: 2em;
+    color: #fff;
+    transition: 3s;
+}

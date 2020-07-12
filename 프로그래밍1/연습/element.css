@@ -1,0 +1,9 @@
+div, p {
+    width: 100px;
+    height: 100px;
+    border: 1px solid slategray;
+    display: inline;
+}
+div > span, a, strong {
+    display: block;
+}

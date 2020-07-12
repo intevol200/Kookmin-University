@@ -1,0 +1,17 @@
+body > span {
+    font-weight: bold;
+    font-size: 50px;
+    font-size: 100px;
+}
+#a {
+    color:red;
+}
+.b {
+    color:blue;
+}
+div > span {
+    color: darkturquoise;
+} 
+div {
+    color:green;
+}

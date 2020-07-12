@@ -1,0 +1,35 @@
+@base_width : 300px;
+@base_height : 200px;
+@base_border : 1px solid gray;
+@text_base_color : darkblue;
+
+.container {
+    width: @base_width;
+    height: @base_height;
+    border: @base_border;
+    padding: 1rem;
+    margin: 0px auto;
+}
+.container h3 {
+    text-align: center;
+    color: @text_base_color;
+}
+.content {
+    width: 200px;
+    height: @base_height/2;
+    border: @base_border;
+    margin: 0px auto;
+    li {
+        list-style: none;
+        a {
+            color: @text_base_color;
+        }
+    }
+}
+footer li {
+    color: darkgreen;
+}
+footer ul {
+    .content;
+    margin-top: 12px;
+}

@@ -1,0 +1,43 @@
+header {
+    background-color: #aaaaaa;
+}
+li {
+    list-style: none;
+}
+#wrap {
+    overflow: auto;
+    margin: 20px 0px;
+}
+footer {
+    background-color: #c3f574;
+    clear: left;
+}
+.right, .left, .other {
+    float: left;
+    height: 200px;
+}
+.left {
+    width: 17%;
+    margin-right: 3%;
+    background-color: beige;
+}
+.right {
+    width: 60%;
+    text-align: center;
+    background-color: cadetblue;
+}
+.other {
+    width: 17%;
+    margin-left: 3%;
+    background-color: lightcoral;
+    text-align: center;
+}
+.right > h2 {
+    position: relative;
+}
+.right .emoji {
+    position: absolute;
+    top: 0px;
+    right: 25%;
+    color: #ffffff;
+}
