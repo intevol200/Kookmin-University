@@ -1,6 +1,6 @@
 # 프로그래밍2
 * 학기: 2020-1
-* 사용 교재: HTML5 + CSS3 + JavaScript 웹프로그래밍(개정판)
+* 사용 교재: HTML5 + CSS3 + JavaScript 웹프로그래밍 (개정판)
 * 언어: HTML / CSS / JavaScript
 
 ###### 과목 소개
