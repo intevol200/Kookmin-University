@@ -2,6 +2,7 @@
 * 학기: 2020-1
 * 사용 교재: Java How to Program, Early Objects (11th Edition)
 * 언어: Java
+* Tools: Eclipse
 
 ###### 과목 소개
 ```
