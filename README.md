@@ -8,7 +8,9 @@ _공부한 것들_
 * Python
   * Anaconda
 * HTML
+  * CSS
   * JavaScript
+  * JSON
   * jQuery
 * SQL
   
