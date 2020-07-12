@@ -7,8 +7,9 @@ _공부한 것들_
 * Java
 * Python
   * Anaconda
-* HTML & JavaScript
-  * JQuery
+* HTML
+  * JavaScript
+  * jQuery
 * SQL
   
 자세한 정보는 각각의 폴더를 참조해주세요.
