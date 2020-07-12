@@ -14,6 +14,7 @@ _공부한 것들_
   * jQuery
 * SQL
 * IBM SPSS Statistics
+* LIBSVM
 * LINGO
 * NeuroShell
   
