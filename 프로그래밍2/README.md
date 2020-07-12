@@ -2,6 +2,7 @@
 * 학기: 2019-2
 * 사용 교재: 자체 교안
 * 언어: JavaScript / Python
+* Tools: Visual Studio Code, Python IDLE, Anaconda, Git
 
 ###### 과목 소개
 ```
