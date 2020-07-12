@@ -2,6 +2,7 @@
 * 학기: 2020-1
 * 사용 교재: 컴퓨터 네트워킹 - 하향식 접근 (7판)
 * 언어: Python
+* Tools: Python IDLE, Wireshark, PuTTY
 
 ###### 과목 소개
 ```
