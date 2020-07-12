@@ -1,0 +1,926 @@
+
+C:\app\libsvm>svm-train -t 0 -c 1 svm_t 
+*.*
+optimization finished, #iter = 512
+nu = 0.701086
+obj = -320.330022, rho = 0.426795
+nSV = 336, nBSV = 326
+Total nSV = 336
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o0c1t 
+Accuracy = 72.0339% (340/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o0c1v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 0 -c 10 svm_t 
+......*....*
+optimization finished, #iter = 4793
+nu = 0.650616
+obj = -3034.401696, rho = 0.243567
+nSV = 313, nBSV = 302
+Total nSV = 313
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o0c10t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o0c10v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 0 -c 33 svm_t 
+................*.......*.*
+optimization finished, #iter = 11337
+nu = 0.639838
+obj = -9925.392566, rho = 0.291667
+nSV = 307, nBSV = 295
+Total nSV = 307
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o0c33t 
+Accuracy = 73.5169% (347/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o0c33v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 0 -c 55 svm_t 
+....................*............................*........................................*
+optimization finished, #iter = 41549
+nu = 0.637812
+obj = -16513.190033, rho = 0.294140
+nSV = 307, nBSV = 295
+Total nSV = 307
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o0c55t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o0c55v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 0 -c 78 svm_t 
+.........................................*....*................................................................*................................................................................*
+optimization finished, #iter = 89071
+nu = 0.636805
+obj = -23400.124904, rho = 0.293971
+nSV = 307, nBSV = 295
+Total nSV = 307
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o0c78t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o0c78v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 0 -c 100 svm_t 
+..................................................*..............................................................*............*
+optimization finished, #iter = 58401
+nu = 0.636273
+obj = -29987.494719, rho = 0.293848
+nSV = 306, nBSV = 294
+Total nSV = 306
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o0c100t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o0c100v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 1 -g 1 -r 1 -d 1 svm_t 
+*.*
+optimization finished, #iter = 673
+nu = 0.701083
+obj = -320.329997, rho = 0.423866
+nSV = 337, nBSV = 326
+Total nSV = 337
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c1d1t 
+Accuracy = 72.0339% (340/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c1d1v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 1 -g 1 -r 1 -d 2 svm_t 
+....*.*
+optimization finished, #iter = 2687
+nu = 0.611537
+obj = -269.114142, rho = 1.464995
+nSV = 310, nBSV = 267
+Total nSV = 310
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c1d2t 
+Accuracy = 76.6949% (362/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c1d2v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 1 -g 1 -r 1 -d 3 svm_t 
+............*.......*.....*
+optimization finished, #iter = 11225
+nu = 0.494013
+obj = -210.093422, rho = 1.821114
+nSV = 281, nBSV = 197
+Total nSV = 281
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c1d3t 
+Accuracy = 84.322% (398/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c1d3v 
+Accuracy = 73.7288% (87/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 1 -g 1 -r 1 -d 4 svm_t 
+.................................................*..........................*........*
+optimization finished, #iter = 39130
+nu = 0.365680
+obj = -145.529961, rho = 1.362480
+nSV = 265, nBSV = 128
+Total nSV = 265
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c1d4t 
+Accuracy = 89.1949% (421/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c1d4v 
+Accuracy = 75.4237% (89/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 1 -g 1 -r 1 -d 5 svm_t 
+.............................................................*..............................................*
+optimization finished, #iter = 50754
+nu = 0.238510
+obj = -89.451109, rho = 1.099743
+nSV = 236, nBSV = 73
+Total nSV = 236
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c1d5t 
+Accuracy = 93.8559% (443/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c1d5v 
+Accuracy = 68.6441% (81/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 10 -g 1 -r 1 -d 1 svm_t 
+.......*.....*
+optimization finished, #iter = 5972
+nu = 0.650593
+obj = -3034.401771, rho = 0.245489
+nSV = 313, nBSV = 302
+Total nSV = 313
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c10d1t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c10d1v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 10 -g 1 -r 1 -d 2 svm_t 
+..............................*...........................*.........................................................................*..........*
+optimization finished, #iter = 65841
+nu = 0.518663
+obj = -2300.594838, rho = 1.979446
+nSV = 280, nBSV = 223
+Total nSV = 280
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c10d2t 
+Accuracy = 80.5085% (380/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c10d2v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 10 -g 1 -r 1 -d 3 svm_t 
+..................................................................*..............................................................................*...................................................................................................................................*.............................*
+optimization finished, #iter = 143478
+nu = 0.381750
+obj = -1582.088817, rho = 2.247181
+nSV = 248, nBSV = 130
+Total nSV = 248
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c10d3t 
+Accuracy = 87.2881% (412/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c10d3v 
+Accuracy = 75.4237% (89/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 10 -g 1 -r 1 -d 4 svm_t 
+........................................................................................................................*.......................................................................*
+optimization finished, #iter = 90262
+nu = 0.230734
+obj = -862.657896, rho = 1.346901
+nSV = 231, nBSV = 64
+Total nSV = 231
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c10d4t 
+Accuracy = 94.7034% (447/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c10d4v 
+Accuracy = 67.7966% (80/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 10 -g 1 -r 1 -d 5 svm_t 
+.........................................................................................................................................................................................*...........................................................................................................................................................................*.......................................................................................................................................*
+optimization finished, #iter = 231754
+nu = 0.128491
+obj = -429.644873, rho = 1.032995
+nSV = 213, nBSV = 27
+Total nSV = 213
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c10d5t 
+Accuracy = 97.8814% (462/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c10d5v 
+Accuracy = 66.9492% (79/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 33 -g 1 -r 1 -d 1 svm_t 
+...............*..........*..........*.*
+optimization finished, #iter = 16352
+nu = 0.639843
+obj = -9925.393434, rho = 0.292089
+nSV = 307, nBSV = 294
+Total nSV = 307
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c33d1t 
+Accuracy = 73.5169% (347/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c33d1v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 33 -g 1 -r 1 -d 2 svm_t 
+.......................................................................*........................................*.....*
+optimization finished, #iter = 54942
+nu = 0.477840
+obj = -7111.419810, rho = 3.597279
+nSV = 260, nBSV = 198
+Total nSV = 260
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c33d2t 
+Accuracy = 82.2034% (388/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c33d2v 
+Accuracy = 78.8136% (93/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 33 -g 1 -r 1 -d 3 svm_t 
+..........................................................................................................................................................................................................................................................................................*..................................................................................................................................................................................................*............................................*
+optimization finished, #iter = 245600
+nu = 0.323373
+obj = -4448.235798, rho = 2.904655
+nSV = 242, nBSV = 105
+Total nSV = 242
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c33d3t 
+Accuracy = 88.5593% (418/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c33d3v 
+Accuracy = 72.8814% (86/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 33 -g 1 -r 1 -d 4 svm_t 
+..............................................................................................................................................................................................................*......................................................................................................................................................................................................................................................................*...................................................................................................................................................................*
+optimization finished, #iter = 297995
+nu = 0.171254
+obj = -2005.058433, rho = 1.035432
+nSV = 220, nBSV = 47
+Total nSV = 220
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c33d4t 
+Accuracy = 96.3983% (455/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c33d4v 
+Accuracy = 69.4915% (82/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 33 -g 1 -r 1 -d 5 svm_t 
+..............................................................................................................................................................................................................................................................................*..........................................................................................................................................................................................................................*.................................................................................................................................................*
+optimization finished, #iter = 298831
+nu = 0.079972
+obj = -797.495668, rho = 2.485664
+nSV = 206, nBSV = 13
+Total nSV = 206
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c33d5t 
+Accuracy = 99.3644% (469/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c33d5v 
+Accuracy = 63.5593% (75/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 55 -g 1 -r 1 -d 1 svm_t 
+........................*.............................................................................................*
+optimization finished, #iter = 55332
+nu = 0.637812
+obj = -16513.200388, rho = 0.294039
+nSV = 307, nBSV = 296
+Total nSV = 307
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c55d1t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c55d1v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 55 -g 1 -r 1 -d 2 svm_t 
+..............................................................................................................................................*..............................................................................................................................................................................................................................................................*.............................*
+optimization finished, #iter = 200722
+nu = 0.463189
+obj = -11609.750429, rho = 3.736125
+nSV = 254, nBSV = 191
+Total nSV = 254
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c55d2t 
+Accuracy = 83.0508% (392/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c55d2v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 55 -g 1 -r 1 -d 3 svm_t 
+......................................................................................................................................................................................................................................................................*..........................................................................................................................................................................................................................................................................................................................*.......................................................................................................................................................................*..........................*
+optimization finished, #iter = 362641
+nu = 0.304348
+obj = -6910.896847, rho = 3.143996
+nSV = 233, nBSV = 96
+Total nSV = 233
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c55d3t 
+Accuracy = 89.4068% (422/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c55d3v 
+Accuracy = 70.339% (83/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 55 -g 1 -r 1 -d 4 svm_t 
+...................................................................................................................................................................................................................................................................................................*.....................................................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 275747
+nu = 0.147818
+obj = -2782.236104, rho = 1.456032
+nSV = 211, nBSV = 36
+Total nSV = 211
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c55d4t 
+Accuracy = 97.8814% (462/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c55d4v 
+Accuracy = 69.4915% (82/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 55 -g 1 -r 1 -d 5 svm_t 
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................*.......................................................................................................................................................................................................................................................................................................................................................*..............................................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 505152
+nu = 0.061617
+obj = -969.290194, rho = 3.200253
+nSV = 203, nBSV = 6
+Total nSV = 203
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c55d5t 
+Accuracy = 99.5763% (470/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c55d5v 
+Accuracy = 61.0169% (72/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 78 -g 1 -r 1 -d 1 svm_t 
+................................*.....................................................................................................*.........................................................*
+optimization finished, #iter = 89615
+nu = 0.636801
+obj = -23400.102025, rho = 0.293594
+nSV = 307, nBSV = 295
+Total nSV = 307
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c78d1t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c78d1v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 78 -g 1 -r 1 -d 2 svm_t 
+....................................................................................................................................*..................................................................................................................................................................................*...........................................................................................................................*
+optimization finished, #iter = 204251
+nu = 0.456129
+obj = -16270.874306, rho = 3.916090
+nSV = 250, nBSV = 189
+Total nSV = 250
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c78d2t 
+Accuracy = 83.0508% (392/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c78d2v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 78 -g 1 -r 1 -d 3 svm_t 
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................*.....................................................................................................................................................................................................................................................................................................................................................................................................................*...........................................................................................................................................................................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 587769
+nu = 0.291876
+obj = -9303.923293, rho = 3.194594
+nSV = 233, nBSV = 91
+Total nSV = 233
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c78d3t 
+Accuracy = 91.1017% (430/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c78d3v 
+Accuracy = 70.339% (83/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 78 -g 1 -r 1 -d 4 svm_t 
+...........................................................................................................................................................................................................................................................................................................................................................................................*................................................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 315190
+nu = 0.132303
+obj = -3434.476252, rho = 2.008530
+nSV = 197, nBSV = 25
+Total nSV = 197
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c78d4t 
+Accuracy = 98.0932% (463/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c78d4v 
+Accuracy = 68.6441% (81/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 78 -g 1 -r 1 -d 5 svm_t 
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................*............................................................................................................................................................................................................................................................................................................................................................................................................................................................*...................................................................................................................................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 590949
+nu = 0.048199
+obj = -1100.476411, rho = 3.452071
+nSV = 205, nBSV = 4
+Total nSV = 205
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c78d5t 
+Accuracy = 99.5763% (470/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c78d5v 
+Accuracy = 61.8644% (73/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 100 -g 1 -r 1 -d 1 svm_t 
+..................................*..........*.......................................................................................*............*
+optimization finished, #iter = 67736
+nu = 0.636274
+obj = -29987.503035, rho = 0.293986
+nSV = 306, nBSV = 294
+Total nSV = 306
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c100d1t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c100d1v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 100 -g 1 -r 1 -d 2 svm_t 
+.............................................................................................................................................................................*.................................................................................................................................................*..........................................................................................................................................................................................................*
+optimization finished, #iter = 245289
+nu = 0.450637
+obj = -20708.174254, rho = 4.008243
+nSV = 248, nBSV = 186
+Total nSV = 248
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c100d2t 
+Accuracy = 83.4746% (394/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c100d2v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 100 -g 1 -r 1 -d 3 svm_t 
+.......................................................................................................................................................................................................................................................................................................................*..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................*......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 594350
+nu = 0.282707
+obj = -11466.757500, rho = 3.239652
+nSV = 231, nBSV = 85
+Total nSV = 231
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c100d3t 
+Accuracy = 91.9492% (434/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c100d3v 
+Accuracy = 71.1864% (84/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 100 -g 1 -r 1 -d 4 svm_t 
+..........................................................................................................................................................................................................................................................................................................................................................................*..............................................................................................................................................................................................................................................................................................................................................*........................................................................................................................................................................................................................................................................*
+optimization finished, #iter = 452779
+nu = 0.121397
+obj = -3952.366515, rho = 2.538191
+nSV = 199, nBSV = 22
+Total nSV = 199
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c100d4t 
+Accuracy = 98.3051% (464/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c100d4v 
+Accuracy = 68.6441% (81/118) (classification)
+
+C:\app\libsvm>svm-train -t 1 -c 100 -g 1 -r 1 -d 5 svm_t 
+.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................*.............................................................................................................................................................................................................................................................................................................................................................................................................................*...................................................................................................................................................................................*.....................................*
+optimization finished, #iter = 546406
+nu = 0.040798
+obj = -1217.174719, rho = 3.456616
+nSV = 202, nBSV = 4
+Total nSV = 202
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o1c100d5t 
+Accuracy = 99.5763% (470/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o1c100d5v 
+Accuracy = 61.0169% (72/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 1 -g 0.5 svm_t 
+*
+optimization finished, #iter = 293
+nu = 0.702494
+obj = -300.089350, rho = 0.359577
+nSV = 349, nBSV = 315
+Total nSV = 349
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c1g1t 
+Accuracy = 74.5763% (352/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c1g1v 
+Accuracy = 74.5763% (88/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 1 -g 0.02 svm_t 
+*
+optimization finished, #iter = 227
+nu = 0.873536
+obj = -381.156752, rho = 0.171576
+nSV = 416, nBSV = 411
+Total nSV = 416
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c1g25t 
+Accuracy = 69.0678% (326/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c1g25v 
+Accuracy = 73.7288% (87/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 1 -g 0.01 svm_t 
+*
+optimization finished, #iter = 228
+nu = 0.932954
+obj = -404.001863, rho = 0.087013
+nSV = 442, nBSV = 439
+Total nSV = 442
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c1g50t 
+Accuracy = 67.3729% (318/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c1g50v 
+Accuracy = 71.1864% (84/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 1 -g 0.0067 svm_t 
+*
+optimization finished, #iter = 230
+nu = 0.965498
+obj = -418.264248, rho = 0.044331
+nSV = 456, nBSV = 454
+Total nSV = 456
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c1g75t 
+Accuracy = 67.161% (317/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c1g75v 
+Accuracy = 69.4915% (82/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 1 -g 0.005 svm_t 
+*
+optimization finished, #iter = 233
+nu = 0.986754
+obj = -428.999304, rho = 0.086678
+nSV = 466, nBSV = 464
+Total nSV = 466
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c1g100t 
+Accuracy = 65.8898% (311/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c1g100v 
+Accuracy = 70.339% (83/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 10 -g 0.5 svm_t 
+.*.*
+optimization finished, #iter = 1277
+nu = 0.548075
+obj = -2267.059455, rho = 0.472260
+nSV = 302, nBSV = 218
+Total nSV = 302
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c10g1t 
+Accuracy = 81.3559% (384/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c10g1v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 10 -g 0.02 svm_t 
+*
+optimization finished, #iter = 310
+nu = 0.728295
+obj = -3286.745559, rho = 2.401608
+nSV = 351, nBSV = 340
+Total nSV = 351
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c10g25t 
+Accuracy = 71.3983% (337/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c10g25v 
+Accuracy = 75.4237% (89/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 10 -g 0.01 svm_t 
+*
+optimization finished, #iter = 277
+nu = 0.758797
+obj = -3404.237296, rho = 1.447161
+nSV = 362, nBSV = 354
+Total nSV = 362
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c10g50t 
+Accuracy = 70.7627% (334/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c10g50v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 10 -g 0.0067 svm_t 
+*
+optimization finished, #iter = 274
+nu = 0.782075
+obj = -3482.078047, rho = 0.944677
+nSV = 373, nBSV = 365
+Total nSV = 373
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c10g75t 
+Accuracy = 69.0678% (326/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c10g75v 
+Accuracy = 74.5763% (88/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 10 -g 0.005 svm_t 
+*
+optimization finished, #iter = 288
+nu = 0.802009
+obj = -3547.833906, rho = 0.691266
+nSV = 384, nBSV = 375
+Total nSV = 384
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c10g100t 
+Accuracy = 68.8559% (325/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c10g100v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 33 -g 0.5 svm_t 
+...*..*
+optimization finished, #iter = 2771
+nu = 0.472383
+obj = -6157.453516, rho = 1.167908
+nSV = 287, nBSV = 175
+Total nSV = 287
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c33g1t 
+Accuracy = 86.6525% (409/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c33g1v 
+Accuracy = 73.7288% (87/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 33 -g 0.02 svm_t 
+*.*
+optimization finished, #iter = 527
+nu = 0.689817
+obj = -10239.615584, rho = 5.814582
+nSV = 335, nBSV = 317
+Total nSV = 335
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c33g25t 
+Accuracy = 73.0932% (345/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c33g25v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 33 -g 0.01 svm_t 
+*
+optimization finished, #iter = 434
+nu = 0.712543
+obj = -10652.275868, rho = 4.165384
+nSV = 340, nBSV = 329
+Total nSV = 340
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c33g50t 
+Accuracy = 71.822% (339/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c33g50v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 33 -g 0.0067 svm_t 
+*
+optimization finished, #iter = 409
+nu = 0.724516
+obj = -10843.856383, rho = 3.005071
+nSV = 347, nBSV = 337
+Total nSV = 347
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c33g75t 
+Accuracy = 71.3983% (337/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c33g75v 
+Accuracy = 75.4237% (89/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 33 -g 0.005 svm_t 
+*.*
+optimization finished, #iter = 547
+nu = 0.735025
+obj = -10981.839245, rho = 2.369262
+nSV = 352, nBSV = 341
+Total nSV = 352
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c33g100t 
+Accuracy = 70.9746% (335/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c33g100v 
+Accuracy = 75.4237% (89/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 55 -g 0.5 svm_t 
+......*..*
+optimization finished, #iter = 3988
+nu = 0.435183
+obj = -9195.387648, rho = 1.318841
+nSV = 284, nBSV = 148
+Total nSV = 284
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c55g1t 
+Accuracy = 87.9237% (415/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c55g1v 
+Accuracy = 72.0339% (85/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 55 -g 0.02 svm_t 
+.*
+optimization finished, #iter = 718
+nu = 0.672824
+obj = -16642.028388, rho = 7.346500
+nSV = 327, nBSV = 310
+Total nSV = 327
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c55g25t 
+Accuracy = 73.7288% (348/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c55g25v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 55 -g 0.01 svm_t 
+.*
+optimization finished, #iter = 639
+nu = 0.698404
+obj = -17374.053907, rho = 6.681327
+nSV = 337, nBSV = 322
+Total nSV = 337
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c55g50t 
+Accuracy = 73.0932% (345/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c55g50v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 55 -g 0.0067 svm_t 
+*.*
+optimization finished, #iter = 482
+nu = 0.708101
+obj = -17710.655246, rho = 4.734904
+nSV = 340, nBSV = 330
+Total nSV = 340
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c55g75t 
+Accuracy = 71.822% (339/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c55g75v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 55 -g 0.005 svm_t 
+*
+optimization finished, #iter = 371
+nu = 0.717520
+obj = -17929.730904, rho = 3.611373
+nSV = 343, nBSV = 333
+Total nSV = 343
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c55g100t 
+Accuracy = 71.1864% (336/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c55g100v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 78 -g 0.5 svm_t 
+.......*....*
+optimization finished, #iter = 5371
+nu = 0.404449
+obj = -12013.468118, rho = 1.344803
+nSV = 276, nBSV = 132
+Total nSV = 276
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c78g1t 
+Accuracy = 89.6186% (423/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c78g1v 
+Accuracy = 71.1864% (84/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 78 -g 0.02 svm_t 
+.*
+optimization finished, #iter = 735
+nu = 0.660952
+obj = -23199.831523, rho = 8.676628
+nSV = 321, nBSV = 303
+Total nSV = 321
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c78g25t 
+Accuracy = 74.3644% (351/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c78g25v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 78 -g 0.01 svm_t 
+*.*
+optimization finished, #iter = 622
+nu = 0.687370
+obj = -24266.949674, rho = 8.731057
+nSV = 332, nBSV = 317
+Total nSV = 332
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c78g50t 
+Accuracy = 73.0932% (345/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c78g50v 
+Accuracy = 77.9661% (92/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 78 -g 0.0067 svm_t 
+.*
+optimization finished, #iter = 814
+nu = 0.700244
+obj = -24773.428926, rho = 6.700038
+nSV = 336, nBSV = 324
+Total nSV = 336
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c78g75t 
+Accuracy = 72.8814% (344/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c78g75v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 78 -g 0.005 svm_t 
+*
+optimization finished, #iter = 412
+nu = 0.706541
+obj = -25094.442585, rho = 5.119539
+nSV = 339, nBSV = 328
+Total nSV = 339
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c78g100t 
+Accuracy = 72.2458% (341/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c78g100v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 100 -g 0.5 svm_t 
+........*....*
+optimization finished, #iter = 5686
+nu = 0.382010
+obj = -14507.287046, rho = 1.591463
+nSV = 276, nBSV = 130
+Total nSV = 276
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c100g1t 
+Accuracy = 90.4661% (427/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c100g1v 
+Accuracy = 71.1864% (84/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 100 -g 0.02 svm_t 
+.
+WARNING: using -h 0 may be faster
+*.*
+optimization finished, #iter = 996
+nu = 0.653270
+obj = -29379.775657, rho = 10.041915
+nSV = 317, nBSV = 299
+Total nSV = 317
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c100g25t 
+Accuracy = 73.9407% (349/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c100g25v 
+Accuracy = 77.1186% (91/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 100 -g 0.01 svm_t 
+.*
+optimization finished, #iter = 794
+nu = 0.680084
+obj = -30785.216238, rho = 10.147914
+nSV = 329, nBSV = 313
+Total nSV = 329
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c100g50t 
+Accuracy = 74.1525% (350/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c100g50v 
+Accuracy = 78.8136% (93/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 100 -g 0.0067 svm_t 
+.*
+optimization finished, #iter = 920
+nu = 0.692787
+obj = -31443.595159, rho = 8.627500
+nSV = 335, nBSV = 321
+Total nSV = 335
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c100g75t 
+Accuracy = 72.8814% (344/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c100g75v 
+Accuracy = 76.2712% (90/118) (classification)
+
+C:\app\libsvm>svm-train -t 2 -c 100 -g 0.005 svm_t 
+*.*
+optimization finished, #iter = 849
+nu = 0.701589
+obj = -31870.901182, rho = 6.505009
+nSV = 337, nBSV = 324
+Total nSV = 337
+
+C:\app\libsvm>svm-predict svm_t svm_t.model o2c100g100t 
+Accuracy = 73.0932% (345/472) (classification)
+
+C:\app\libsvm>svm-predict svm_v svm_t.model o2c100g100v 
+Accuracy = 76.2712% (90/118) (classification)
