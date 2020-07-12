@@ -1,7 +1,8 @@
 # 데이터베이스입문
 * 학기: 2019-1
 * 사용 교재: 자체 교안
-* 언어: SQL(MS Access 활용)
+* 언어: SQL
+* Tools: MS Access, Oracle SQL Developer
 
 ###### 과목 소개
 ```
