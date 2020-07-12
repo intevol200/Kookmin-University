@@ -13,7 +13,7 @@ _공부한 것들_
   * JSON
   * jQuery
 * SQL
-* SPSS
+* IBM SPSS Statistics
 * LINGO
 * NeuroShell
   
