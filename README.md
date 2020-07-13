@@ -13,9 +13,13 @@ _공부한 것들_
   * JSON
   * jQuery
 * SQL
-* IBM SPSS Statistics
-* LIBSVM
-* LINGO
-* NeuroShell
-  
+
+_사용한 Tools_
+```
+1. IBM SPSS Statistics
+2. LIBSVM
+3. LINGO
+4. NeuroShell
+```
+
 자세한 정보는 각각의 폴더를 참조해주세요.
