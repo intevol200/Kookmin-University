@@ -3,7 +3,7 @@
 * 제1전공: 경영정보전공
 * 부전공: 소프트웨어전공
 #
-_공부한 것들_
+###### 공부한 것들
 * Java
 * Python
   * Anaconda
@@ -14,7 +14,7 @@ _공부한 것들_
   * jQuery
 * SQL
 #
-_사용한 Tools_
+###### 사용한 Tools
 ```
 1. IBM SPSS Statistics
 2. LIBSVM
