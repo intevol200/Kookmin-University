@@ -6,13 +6,14 @@
 ###### 공부한 것들
 * Java
 * Python
-  * Anaconda
 * HTML
   * CSS
   * JavaScript
   * JSON
   * jQuery
 * SQL
+* R
+* Scala
 #
 ###### 사용한 Tools
 ```
@@ -20,6 +21,10 @@
 2. LIBSVM
 3. LINGO
 4. NeuroShell
+5. Jupyter Notebook
+6. AWS
+7. Databricks
+8. Google Colab
 ```
 
 자세한 정보는 각각의 폴더를 참조해주세요.
